@@ -64,7 +64,7 @@ margin-left: 4%;
 <!--Navbar -->
 <body class="index">
 <center>
-  <div class="list1" ><p><a class="hov size" href="home2.html">HOME</a>
+  <div class="list1" ><p><a class="hov size" href="home.html">HOME</a>
     <a class="hov size" href="index.php">Welcome</a>
     <a class="hov size" href="About.html"> ABOUT US</a>
     <a class="hov size" href="Schedule.html">SCHEDULE</a>
