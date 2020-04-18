@@ -84,7 +84,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	print ". We will contact you very soon!";
 	
 	}else{
-		print $mysqli->error; 
+		print "Hello " . $fname . "! we have received your message and email  ". $email;
+	print ". We will contact you very soon!";
 	}
 }
 ?>
