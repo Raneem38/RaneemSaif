@@ -98,7 +98,7 @@ transform: translateY(-0.25em);
 <!--Navbar -->
 <center>
 <div class="list1" ><p><a class="hov size" href="home2.html">HOME</a>
-  <a class="hov size" href="login.php">REGISTER-LOGIN</a>
+  <a class="hov size" href="index.php">Welcome</a>
   <a class="hov size" href="About.html"> ABOUT US</a>
   <a class="hov size" href="Schedule.html">SCHEDULE</a>
   <a class="hov size" href="trainer.html">TRAINERS</a>
