@@ -1,0 +1,106 @@
+body{
+  
+ 
+  height:200%;
+}
+
+div.list{
+  border: 5px solid black;
+  background-color:#f3e7b3;
+  widows: 90%;
+  height:10%;
+  margin-top: auto;
+  font-weight:20px;
+}
+
+
+h1.r{
+font-size: 50px;
+font-family: monospace;
+}
+
+div.form{
+border: 3px solid black;
+width: 300px;
+height: 400px;
+}
+div.raneem{
+border: 3px solid black;
+width: 300px;
+height: 300px;
+margin-top: 5px;}
+div.user{
+border: 3px solid black;
+width: 300px;
+height: 300px;}
+
+
+input{
+width: 200px;
+height: 30px;
+}
+
+a{
+color:black;
+font-weight:bolder;
+padding-right:50px;
+text-decoration: none;
+font-family: 'Times New Roman', Times, serif;
+}
+    
+a:hover{
+  color:white;
+  font-weight: 1000px;
+}
+a.color{ color :rgb(18, 116, 140);}
+
+
+p.shape{
+font-family: monospace;
+font-size: 30px;
+margin-top: 0px;
+margin-left: 70px;
+}
+
+button{
+background-color: rgb(18, 116, 140);
+font-weight: bold;
+border-color: white;
+border-width: 3px solid black;
+float: right;
+color: white;
+}
+
+fieldset.project{
+width: 400px;  
+border-color:white;
+border-width: 6px;
+height: 350px;
+margin-top: 0px;
+margin-left:400px;
+}
+
+table.bord{
+border: 6px solid white;
+border-color: white;
+margin: auto;
+}
+
+td.bord1{
+background-color:rgb(223, 152, 0);
+text-align: left;
+color: white;
+border-color: white;
+}
+div.right{
+  float: right;
+  margin-right: 6px;
+
+}
+
+.mainDiv{
+  width:100%;
+  border: solid 6px;
+  margin: auto 10px  ;
+}
+

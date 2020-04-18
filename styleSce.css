@@ -1,0 +1,105 @@
+
+    
+    body.Sce{
+      height:200%;
+      padding: 4px 35px 4px 4px;
+      background-image: url('img/back11.jpg');
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: cover;
+    
+    }
+    div.list1{
+      border: 5px solid black;
+      background-color:#f3e7b3;
+      widows: 90%;
+      height:10%;
+      margin-top: auto;
+      font-weight:20px;
+    }
+      .button {
+       
+      border: none;
+      color: white;
+      padding: 9px 22px;
+      text-align: center;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 1px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      
+    }
+    
+      .button5 {
+      background-color: rgba(255, 192, 203, 0);
+      color: rgb(34, 33, 33);
+      border: 2px solid #dfdfdf;
+      float: inherit;
+    }
+    
+    .button5:hover {
+      background-color: #a255ac9f;
+      color: rgb(0, 0, 0);
+      transform: translateY(-0.25em);
+     
+    }
+    
+    table.paleBlueRows {
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      border: 1px solid #FFFFFF;
+      width: 60%;
+      height: 50%;
+      text-align: center;
+      border-collapse: collapse;
+    }
+    table.paleBlueRows td, table.paleBlueRows th {
+      border: 2px solid #FFFFFF;
+      padding: 10px 9px;
+    }
+    table.paleBlueRows tbody td {
+      font-size: 17px;
+      font-style:oblique;
+      background: rgba(202, 191, 173, 0.623);
+      
+    }
+    table.paleBlueRows tr:nth-child(even) {
+      background: rgba(221, 223, 147, 0.623);
+    }
+    table.paleBlueRows thead {
+      background: rgba(73, 4, 90, 0.815);
+      border-bottom: 5px solid #FFFFFF;
+    }
+    table.paleBlueRows thead th {
+      font-size: 17px;
+      font-weight: bold;
+      color: #FFFFFF;
+      text-align: center;
+      border-left: 2px solid #FFFFFF;
+    }
+    table.paleBlueRows thead th:first-child {
+      border-left: none;
+    }
+    
+    table.paleBlueRows tfoot {
+      font-size: 22px;
+      font-weight: bold;
+      color: #333333;
+      
+      border-top: 2px solid #444444;
+    }
+        
+    a:hover{
+      color:white;
+    }
+    a.size{
+    color:black;
+    font-weight: 500px;
+    padding-right:40px;
+    text-decoration: none;
+    }
+    
+    
+    
