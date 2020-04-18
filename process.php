@@ -43,7 +43,7 @@ background-size: cover;
 	<a class="hov size" href="trainer.html">TRAINERS</a>
 	<a class="hov size" href="Articls.html">ARTICLES</a> 
 	<a class="hov size" href="form.php">CONTACT US</a>
-	<a class="hov size" href="logout.php">LOGOUT</a></p></div>
+	
 </center>
 <br>
 </body>
