@@ -37,7 +37,7 @@ background-size: cover;
 <!--Navbar -->
 <center>
 	<div class="list" ><p><a class="hov size" href="home2.html">HOME</a>
-	<a class="hov size" href="login.php">REGISTER-LOGIN</a>
+	<a class="hov size" href="index.php">Welcome</a>
 	<a class="hov size" href="About.html"> ABOUT US</a>
 	<a class="hov size" href="Schedule.html">SCHEDULE</a>
 	<a class="hov size" href="trainer.html">TRAINERS</a>
