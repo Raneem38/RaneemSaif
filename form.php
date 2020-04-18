@@ -104,7 +104,7 @@ transform: translateY(-0.25em);
   <a class="hov size" href="trainer.html">TRAINERS</a>
   <a class="hov size" href="Articls.html">ARTICLES</a>
   <a class="hov size" href="form.php">CONTACT US</a>
-  <a class="hov size" href="logout.php">LOGOUT</a></p></div>
+  
 
 <br>
 <!--Posting user messege to the database using PHP -->
