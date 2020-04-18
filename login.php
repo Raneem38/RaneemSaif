@@ -28,7 +28,7 @@ text-indent: 30px;
 <!-- 
 <body class="login">
 <?php
-/*
+
 require('db.php');
 session_start();
 // If form submitted, insert values into the database.
@@ -53,7 +53,7 @@ and password='".md5($password)."'";
 <br/><h3>Click here to <a class='color' href='login.php'>Login again</a></h3>";
  }
     }else{\
-    */
+    
 ?>
 
 <!--Navbar -->
