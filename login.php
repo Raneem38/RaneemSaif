@@ -25,9 +25,10 @@ text-indent: 30px;
 </head>
 
 
-
+<!-- 
 <body class="login">
 <?php
+/*
 require('db.php');
 session_start();
 // If form submitted, insert values into the database.
@@ -51,8 +52,10 @@ and password='".md5($password)."'";
  echo "<h3>Username/password is incorrect.</h3>
 <br/><h3>Click here to <a class='color' href='login.php'>Login again</a></h3>";
  }
-    }else{
+    }else{\
+    */
 ?>
+
 <!--Navbar -->
 <center>
        <div class="list" ><p><a class="hov" href="home.html">HOME</a>
@@ -67,7 +70,6 @@ and password='".md5($password)."'";
 <br>
 <br>
 <br>
-
 
 <!--HTML Form for Login -->
 <center>
