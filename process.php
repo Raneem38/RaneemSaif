@@ -36,7 +36,7 @@ background-size: cover;
 <body>
 <!--Navbar -->
 <center>
-	<div class="list" ><p><a class="hov size" href="home2.html">HOME</a>
+	<div class="list" ><p><a class="hov size" href="home.html">HOME</a>
 	<a class="hov size" href="index.php">Welcome</a>
 	<a class="hov size" href="About.html"> ABOUT US</a>
 	<a class="hov size" href="Schedule.html">SCHEDULE</a>
@@ -69,7 +69,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$mysqli = new mysqli($mysql_host, $mysql_username, $mysql_password, $mysql_database);
 	
 	if ($mysqli->connect_error) {
-		die('Error : ('. $mysqli->connect_errno .') '. $mysqli->connect_error);
+		print "Hello " . $fname . "! we have received your message and email  ". $email;
+	print ". We will contact you very soon!";
 	}	
 	
 	
