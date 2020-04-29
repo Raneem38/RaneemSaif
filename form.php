@@ -59,6 +59,7 @@ div.list1{
       height:5%;
       margin-top: auto;
       font-weight:20px;
+      overflow:auto;
     } 
     
 .button {
