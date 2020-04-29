@@ -8,17 +8,16 @@ Rafif Altayar(3910162)
  -->
  <!--  15-4-2020  -->
 
-<html>
-  <title>Home</title>
 
+ <html>
+  <title>Home</title>
 <head>
-  <meta name = "viewport" content="width-device-width,initial-scale=1.0">
+    <meta name = "viewport" content="width-device-width,initial-scale=1.0">
     <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
     <script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
     
-  
 
-<!-- If statement for calculating BMI -->
+    <!-- If statement for calculating BMI -->
     <script language="JavaScript">
     
         function calculateBmi() {
@@ -31,10 +30,10 @@ Rafif Altayar(3910162)
         document.bmiForm.meaning.value = " You are too thin."
         }
         if(finalBmi > 18.5 && finalBmi < 25){
-        document.bmiForm.meaning.value = " You are healthy."
+        document.bmiForm.meaning.value = "You are healthy."
         }
         if(finalBmi > 25){
-        document.bmiForm.meaning.value = " You have overweight."
+        document.bmiForm.meaning.value = "You have overweight."
         }
         }
         else{
@@ -49,11 +48,11 @@ Rafif Altayar(3910162)
 
 body.board{
 height:130%;
-background-color: rgb(15, 136, 126);
-max-width: 100%;
+background-color: rgba(190, 126, 126, 0.692);
 background-repeat: no-repeat;  
 background-size: cover;
-
+background-attachment: scroll;
+max-width: 100%;
 }
 
 .button {
@@ -73,7 +72,7 @@ cursor: pointer;
 .button5 {
 background-color: rgba(255, 192, 203, 0);
 color: rgb(34, 33, 33);
-border: 2px solid #dfcdcd;
+border: 2px solid #00000079;
 float: inherit;
 width: auto;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -82,7 +81,7 @@ font-size: 19px;
 }
 
 .button5:hover {
-background-color: #2291c4d8;
+background-color: #b4728e;
 color: rgb(0, 0, 0);
 transform: translateY(-0.25em);
 }
@@ -94,8 +93,6 @@ widows: 90%;
 height:7%;
 margin-top: auto;
 font-weight:20px;
-overflow: auto;
-margin-top: auto;
 }
 
 a{
@@ -103,7 +100,7 @@ color:black;
 font-weight:bolder;
 padding-right:50px;
 text-decoration: none;
-font-family: 'Times New Roman', Times, serif;
+font-family: 'Times New Roman','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
     
 a:hover{
@@ -111,17 +108,12 @@ color:white;
 font-weight: 1000px;
 }
 
-#maindiv{
-width: 20%;
-overflow: auto;
-margin-left: 90%;
-background-color: #f3e7b3;
-}
+
 #bayan{
 overflow: auto;
 }
 #static{
-overflow: auto;
+overflow: visible;
 }
 img{
 max-width: 100%;
@@ -136,14 +128,14 @@ max-width: 1800px;
 display: block;
 position: relative;
 margin: 10px auto;  
+
 }
 
 #form{
-background-color: #f3e7b3;
+background-color: #f3e7b300;
 height: 50%;
 width: 50%;
-box-shadow: 4px 4px 4px 4px #f3e7b3;
-overflow: auto;
+box-shadow: 4px 4px 4px 4px #f3e7b300;
 }
 
 
@@ -152,93 +144,94 @@ overflow: auto;
 cursor: pointer;
 width:15px;
 height: 15px;
-border: 1px solid black;
-border-radius: 50%;
+border: 2px solid black;
 display: inline-block;
 margin: 0 5px;
 white-space: nowrap;
 margin-bottom: 20px;
+margin-top:10px;
 }
 
 .cycle-pager .cycle-pager-active{
-background-color: black;
+background-color: #f3e7b3;
 }
 
+
+#over-slideshow{
+position: absolute;
+background-color: #f3e7b3;
+height: 100%;
+box-shadow: 4px 4px 4px 4px #0000005b;
+width: 50%;
+overflow: auto;
+margin-left: 25%;
+margin-right: 25%;
+margin-bottom: 4%;
+background-color: #f3e7b370;
+vertical-align: middle;
+align-items: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 
 </style>
 </head>
 
 <!-- Navbar -->
 <div id = "bayan ">
-<body class="board" >
+<body class="board ">
     <center>
       <div class="list" ><p><a class="hov" href="home.html">HOME</a>
-       
-        <a class="hov size" href="About.html"> ABOUT US</a>
-        <a class="hov size" href="Schedule.html">SCHEDULE</a>
-        <a class="hov size" href="trainer.html">TRAINERS</a>
-        <a class="hov size" href="Articls.html">ARTICLES</a> 
-        <a class="hov size" href="form.php">CONTACT US</a></p></div>
-      
-       
-        
+        <a   class="hov" href="About.html"> ABOUT US</a>
+        <a class="hov"  href="Schedule.html">SCHEDULE</a>
+        <a class="hov"  href="trainet.html">TRAINERS</a>
+        <a class="hov"  href="Articls.html">ARTICLES</a> 
+        <a class="hov" href="form.html">CONTACT US</a></p></div>
         
         <div class="cycle-slideshow">
-
           <span class="cycle-pager"></span>
-
-
-          <img src = "slid/slid (9).png">
-          <img src = "img/bann.png">
-          <img src = "img/back13.jpg">
-          <img src = "slid/slid (10).jpeg">
-          <img src = "slid/s3 (1).jpeg">
-          <img src = "slid/s3 (4).jpeg">
-          <img src = "img/back11.jpg">
-          <img src = "slid/s2 (4).jpeg">
-          <img src = "slid/s3 (5).jpeg">
-          <img src = "slid/slid (13).jpeg">
-          <img src = "slid/slid (14).jpeg">
-          <img src = "slid/s3 (3).jpeg">
-          <img src = "slid/slid (16).jpeg">
-          <img src = "slid/s3 (2).jpeg">
+           <img src = "slid/slid (111).png">
+            <img src = "slid/s3 (4).jpeg">
+            <img src = "img/back11.jpg">
+             <img src = "slid/slide4.jpg">
+             <img src = "slid/slide5.jpg">
+             <img src = "slid/slide6-5.jpg">
+             <img src = "slid/slide6.jpg">
+          <div id="over-slideshow">
+            <form id="form" name="bmiForm">
+              
+              <br><br>
+              
+              <!--HTML Form for BMI -->
+              <h2>Calculate Your BMI!</h2>
+              
+               
+              <b> Your Weight(kg):</b> <input type="text" name="weight" size="8">
+              <br><br>
+              <b>Your Height(cm):</b>
+              <input type="text" name="height" size="8"><br />
+              <br>
+              <input class="button button5" value="Calculate BMI" onClick="calculateBmi()">
+              <br>
+              <br>
+              <b>Your BMI:</b> <input type="text" name="bmi" size="8">
+              <br>
+              <br>
+              <b>This Means: </b><input type="text" name="meaning" size="20">
+              <br>
+              <br>
+              <input class="button button5" type="reset" value="Reset" />
+            </form>
+          </div></div>
+       <br>
+  
           
-          
-          
- </div>
-    <br>
-
-      <!--HTML Form for BMI -->
-      <div id = "maindiv ">
-      <form id="form" name="bmiForm">
-       <br><br>
-        
-        
-        <h2>Calculate Your BMI!</h2>
-        
-         
-        <b> Your Weight(kg):</b> <input type="text" name="weight" size="8">
-        <br><br>
-        <b>Your Height(cm):</b>
-        <input type="text" name="height" size="8"><br />
-        <br>
-        <input class="button button5" value="Calculate BMI" onClick="calculateBmi()">
-        <br>
-        <br>
-        <b>Your BMI:</b> <input type="text" name="bmi" size="8">
-        <br>
-        <br>
-        <b>This Means: </b><input type="text" name="meaning" size="20">
-        <br>
-        <br>
-        <input class="button button5" type="reset" value="Reset" />
-        <br><br>
-      </form>
-      </div>
-      <br><br><br><br><br><br><br><br><br><br>
-    </center>
     
+      
+    <br><br><br><br><br><br><br><br><br>
     
+  </center>
+          
+          
 </body>
 </div>
 </html>
