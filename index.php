@@ -71,7 +71,8 @@ margin-left: 4%;
     <a class="hov size" href="trainer.html">TRAINERS</a>
     <a class="hov size" href="Articls.html">ARTICLES</a>
     <a class="hov size" href="form.php">CONTACT US</a>
-    <a class="hov size" href="logout.php">LOGOUT</a></p></div><br>
+    <a class="hov size" href="logout.php">LOGOUT</a>
+    <a class="hov" title="Get Help and Instructions" href="Help Manual and Instructions.pdf">GET HELP</a></p></div><br>
 </center>
 <!-- Welcome message after login  -->
 <center>
